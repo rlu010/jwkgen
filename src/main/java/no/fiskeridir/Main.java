@@ -21,7 +21,7 @@ public class Main {
     String keyID = "my-key-id";
     int KEYZISE = 2048;
     String publicKeyName = "my-public-key.pem";
-    String privateKeyName = "my-public-key.pem";
+    String privateKeyName = "my-private-key.pem";
 
     // Generate the RSA key pair
     KeyPairGenerator gen = KeyPairGenerator.getInstance(ALGORITHM);
